@@ -1,0 +1,489 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\MycafePOS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C23382BA-C4C4-6ADA-2321-34309A84AAFF}|MycafePOS\\MycafePOS.csproj|d:\\mycafepos\\mycafepos\\controllers\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C23382BA-C4C4-6ADA-2321-34309A84AAFF}|MycafePOS\\MycafePOS.csproj|solutionrelative:mycafepos\\controllers\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C23382BA-C4C4-6ADA-2321-34309A84AAFF}|MycafePOS\\MycafePOS.csproj|d:\\mycafepos\\mycafepos\\controllers\\ingredientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C23382BA-C4C4-6ADA-2321-34309A84AAFF}|MycafePOS\\MycafePOS.csproj|solutionrelative:mycafepos\\controllers\\ingredientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C23382BA-C4C4-6ADA-2321-34309A84AAFF}|MycafePOS\\MycafePOS.csproj|d:\\mycafepos\\mycafepos\\controllers\\ingredientstypecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C23382BA-C4C4-6ADA-2321-34309A84AAFF}|MycafePOS\\MycafePOS.csproj|solutionrelative:mycafepos\\controllers\\ingredientstypecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C23382BA-C4C4-6ADA-2321-34309A84AAFF}|MycafePOS\\MycafePOS.csproj|d:\\mycafepos\\mycafepos\\entities\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C23382BA-C4C4-6ADA-2321-34309A84AAFF}|MycafePOS\\MycafePOS.csproj|solutionrelative:mycafepos\\entities\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C23382BA-C4C4-6ADA-2321-34309A84AAFF}|MycafePOS\\MycafePOS.csproj|d:\\mycafepos\\mycafepos\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C23382BA-C4C4-6ADA-2321-34309A84AAFF}|MycafePOS\\MycafePOS.csproj|solutionrelative:mycafepos\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C23382BA-C4C4-6ADA-2321-34309A84AAFF}|MycafePOS\\MycafePOS.csproj|d:\\mycafepos\\mycafepos\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C23382BA-C4C4-6ADA-2321-34309A84AAFF}|MycafePOS\\MycafePOS.csproj|solutionrelative:mycafepos\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C23382BA-C4C4-6ADA-2321-34309A84AAFF}|MycafePOS\\MycafePOS.csproj|d:\\mycafepos\\mycafepos\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C23382BA-C4C4-6ADA-2321-34309A84AAFF}|MycafePOS\\MycafePOS.csproj|solutionrelative:mycafepos\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C23382BA-C4C4-6ADA-2321-34309A84AAFF}|MycafePOS\\MycafePOS.csproj|d:\\mycafepos\\mycafepos\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C23382BA-C4C4-6ADA-2321-34309A84AAFF}|MycafePOS\\MycafePOS.csproj|solutionrelative:mycafepos\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C23382BA-C4C4-6ADA-2321-34309A84AAFF}|MycafePOS\\MycafePOS.csproj|d:\\mycafepos\\mycafepos\\entities\\orders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C23382BA-C4C4-6ADA-2321-34309A84AAFF}|MycafePOS\\MycafePOS.csproj|solutionrelative:mycafepos\\entities\\orders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C23382BA-C4C4-6ADA-2321-34309A84AAFF}|MycafePOS\\MycafePOS.csproj|d:\\mycafepos\\mycafepos\\entities\\orderitems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C23382BA-C4C4-6ADA-2321-34309A84AAFF}|MycafePOS\\MycafePOS.csproj|solutionrelative:mycafepos\\entities\\orderitems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C23382BA-C4C4-6ADA-2321-34309A84AAFF}|MycafePOS\\MycafePOS.csproj|d:\\mycafepos\\mycafepos\\dtos\\order\\createorderitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C23382BA-C4C4-6ADA-2321-34309A84AAFF}|MycafePOS\\MycafePOS.csproj|solutionrelative:mycafepos\\dtos\\order\\createorderitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C23382BA-C4C4-6ADA-2321-34309A84AAFF}|MycafePOS\\MycafePOS.csproj|d:\\mycafepos\\mycafepos\\dtos\\order\\createorderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C23382BA-C4C4-6ADA-2321-34309A84AAFF}|MycafePOS\\MycafePOS.csproj|solutionrelative:mycafepos\\dtos\\order\\createorderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C23382BA-C4C4-6ADA-2321-34309A84AAFF}|MycafePOS\\MycafePOS.csproj|d:\\mycafepos\\mycafepos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C23382BA-C4C4-6ADA-2321-34309A84AAFF}|MycafePOS\\MycafePOS.csproj|solutionrelative:mycafepos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C23382BA-C4C4-6ADA-2321-34309A84AAFF}|MycafePOS\\MycafePOS.csproj|d:\\mycafepos\\mycafepos\\wwwroot\\uploads\\menu\\10afcaa0-f922-438b-afd2-f2adc5a77927.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{C23382BA-C4C4-6ADA-2321-34309A84AAFF}|MycafePOS\\MycafePOS.csproj|solutionrelative:mycafepos\\wwwroot\\uploads\\menu\\10afcaa0-f922-438b-afd2-f2adc5a77927.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C23382BA-C4C4-6ADA-2321-34309A84AAFF}|MycafePOS\\MycafePOS.csproj|d:\\mycafepos\\mycafepos\\dtos\\menu\\createmenudto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C23382BA-C4C4-6ADA-2321-34309A84AAFF}|MycafePOS\\MycafePOS.csproj|solutionrelative:mycafepos\\dtos\\menu\\createmenudto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C23382BA-C4C4-6ADA-2321-34309A84AAFF}|MycafePOS\\MycafePOS.csproj|d:\\mycafepos\\mycafepos\\dtos\\menu\\menurecipeitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C23382BA-C4C4-6ADA-2321-34309A84AAFF}|MycafePOS\\MycafePOS.csproj|solutionrelative:mycafepos\\dtos\\menu\\menurecipeitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C23382BA-C4C4-6ADA-2321-34309A84AAFF}|MycafePOS\\MycafePOS.csproj|d:\\mycafepos\\mycafepos\\controllers\\menutypecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C23382BA-C4C4-6ADA-2321-34309A84AAFF}|MycafePOS\\MycafePOS.csproj|solutionrelative:mycafepos\\controllers\\menutypecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C23382BA-C4C4-6ADA-2321-34309A84AAFF}|MycafePOS\\MycafePOS.csproj|d:\\mycafepos\\mycafepos\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C23382BA-C4C4-6ADA-2321-34309A84AAFF}|MycafePOS\\MycafePOS.csproj|solutionrelative:mycafepos\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C23382BA-C4C4-6ADA-2321-34309A84AAFF}|MycafePOS\\MycafePOS.csproj|d:\\mycafepos\\mycafepos\\dtos\\ingredients\\createingredientstypedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C23382BA-C4C4-6ADA-2321-34309A84AAFF}|MycafePOS\\MycafePOS.csproj|solutionrelative:mycafepos\\dtos\\ingredients\\createingredientstypedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C23382BA-C4C4-6ADA-2321-34309A84AAFF}|MycafePOS\\MycafePOS.csproj|d:\\mycafepos\\mycafepos\\dtos\\usersdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C23382BA-C4C4-6ADA-2321-34309A84AAFF}|MycafePOS\\MycafePOS.csproj|solutionrelative:mycafepos\\dtos\\usersdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C23382BA-C4C4-6ADA-2321-34309A84AAFF}|MycafePOS\\MycafePOS.csproj|d:\\mycafepos\\mycafepos\\dtos\\ingredients\\updatestockdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C23382BA-C4C4-6ADA-2321-34309A84AAFF}|MycafePOS\\MycafePOS.csproj|solutionrelative:mycafepos\\dtos\\ingredients\\updatestockdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C23382BA-C4C4-6ADA-2321-34309A84AAFF}|MycafePOS\\MycafePOS.csproj|d:\\mycafepos\\mycafepos\\dtos\\ingredients\\updateingredientsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C23382BA-C4C4-6ADA-2321-34309A84AAFF}|MycafePOS\\MycafePOS.csproj|solutionrelative:mycafepos\\dtos\\ingredients\\updateingredientsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C23382BA-C4C4-6ADA-2321-34309A84AAFF}|MycafePOS\\MycafePOS.csproj|d:\\mycafepos\\mycafepos\\dtos\\ingredients\\createingredientsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C23382BA-C4C4-6ADA-2321-34309A84AAFF}|MycafePOS\\MycafePOS.csproj|solutionrelative:mycafepos\\dtos\\ingredients\\createingredientsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C23382BA-C4C4-6ADA-2321-34309A84AAFF}|MycafePOS\\MycafePOS.csproj|d:\\mycafepos\\mycafepos\\controllers\\ingredientstockcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C23382BA-C4C4-6ADA-2321-34309A84AAFF}|MycafePOS\\MycafePOS.csproj|solutionrelative:mycafepos\\controllers\\ingredientstockcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C23382BA-C4C4-6ADA-2321-34309A84AAFF}|MycafePOS\\MycafePOS.csproj|d:\\mycafepos\\mycafepos\\migrations\\20260510074714_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C23382BA-C4C4-6ADA-2321-34309A84AAFF}|MycafePOS\\MycafePOS.csproj|solutionrelative:mycafepos\\migrations\\20260510074714_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C23382BA-C4C4-6ADA-2321-34309A84AAFF}|MycafePOS\\MycafePOS.csproj|d:\\mycafepos\\mycafepos\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C23382BA-C4C4-6ADA-2321-34309A84AAFF}|MycafePOS\\MycafePOS.csproj|solutionrelative:mycafepos\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C23382BA-C4C4-6ADA-2321-34309A84AAFF}|MycafePOS\\MycafePOS.csproj|d:\\mycafepos\\mycafepos\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C23382BA-C4C4-6ADA-2321-34309A84AAFF}|MycafePOS\\MycafePOS.csproj|solutionrelative:mycafepos\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C23382BA-C4C4-6ADA-2321-34309A84AAFF}|MycafePOS\\MycafePOS.csproj|d:\\mycafepos\\mycafepos\\entities\\menurecipe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C23382BA-C4C4-6ADA-2321-34309A84AAFF}|MycafePOS\\MycafePOS.csproj|solutionrelative:mycafepos\\entities\\menurecipe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C23382BA-C4C4-6ADA-2321-34309A84AAFF}|MycafePOS\\MycafePOS.csproj|d:\\mycafepos\\mycafepos\\entities\\ingredientstock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C23382BA-C4C4-6ADA-2321-34309A84AAFF}|MycafePOS\\MycafePOS.csproj|solutionrelative:mycafepos\\entities\\ingredientstock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "D:\\MycafePOS\\MycafePOS\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "MycafePOS\\Controllers\\DashboardController.cs",
+              "ToolTip": "D:\\MycafePOS\\MycafePOS\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "MycafePOS\\Controllers\\DashboardController.cs",
+              "ViewState": "AgIAAHcAAAAAAAAAAAAYwIgAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-11T17:16:25.404Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "D:\\MycafePOS\\MycafePOS\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "MycafePOS\\Controllers\\OrdersController.cs",
+              "ToolTip": "D:\\MycafePOS\\MycafePOS\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "MycafePOS\\Controllers\\OrdersController.cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAADwv2AAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-11T17:15:25.363Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MenuController.cs",
+              "DocumentMoniker": "D:\\MycafePOS\\MycafePOS\\Controllers\\MenuController.cs",
+              "RelativeDocumentMoniker": "MycafePOS\\Controllers\\MenuController.cs",
+              "ToolTip": "D:\\MycafePOS\\MycafePOS\\Controllers\\MenuController.cs*",
+              "RelativeToolTip": "MycafePOS\\Controllers\\MenuController.cs*",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-10T08:50:13.15Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IngredientsController.cs",
+              "DocumentMoniker": "D:\\MycafePOS\\MycafePOS\\Controllers\\IngredientsController.cs",
+              "RelativeDocumentMoniker": "MycafePOS\\Controllers\\IngredientsController.cs",
+              "ToolTip": "D:\\MycafePOS\\MycafePOS\\Controllers\\IngredientsController.cs",
+              "RelativeToolTip": "MycafePOS\\Controllers\\IngredientsController.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAYwBYAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-10T08:16:55.067Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IngredientsTypeController.cs",
+              "DocumentMoniker": "D:\\MycafePOS\\MycafePOS\\Controllers\\IngredientsTypeController.cs",
+              "RelativeDocumentMoniker": "MycafePOS\\Controllers\\IngredientsTypeController.cs",
+              "ToolTip": "D:\\MycafePOS\\MycafePOS\\Controllers\\IngredientsTypeController.cs",
+              "RelativeToolTip": "MycafePOS\\Controllers\\IngredientsTypeController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAQwGUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-10T08:16:38.309Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Menu.cs",
+              "DocumentMoniker": "D:\\MycafePOS\\MycafePOS\\Entities\\Menu.cs",
+              "RelativeDocumentMoniker": "MycafePOS\\Entities\\Menu.cs",
+              "ToolTip": "D:\\MycafePOS\\MycafePOS\\Entities\\Menu.cs",
+              "RelativeToolTip": "MycafePOS\\Entities\\Menu.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAkwA8AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T14:00:36.431Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "10afcaa0-f922-438b-afd2-f2adc5a77927.png",
+              "DocumentMoniker": "D:\\MycafePOS\\MycafePOS\\wwwroot\\uploads\\menu\\10afcaa0-f922-438b-afd2-f2adc5a77927.png",
+              "RelativeDocumentMoniker": "MycafePOS\\wwwroot\\uploads\\menu\\10afcaa0-f922-438b-afd2-f2adc5a77927.png",
+              "ToolTip": "D:\\MycafePOS\\MycafePOS\\wwwroot\\uploads\\menu\\10afcaa0-f922-438b-afd2-f2adc5a77927.png",
+              "RelativeToolTip": "MycafePOS\\wwwroot\\uploads\\menu\\10afcaa0-f922-438b-afd2-f2adc5a77927.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2026-05-13T14:58:20.477Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AppDbContextModelSnapshot.cs",
+              "DocumentMoniker": "D:\\MycafePOS\\MycafePOS\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "MycafePOS\\Migrations\\AppDbContextModelSnapshot.cs",
+              "ToolTip": "D:\\MycafePOS\\MycafePOS\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeToolTip": "MycafePOS\\Migrations\\AppDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAE4BAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-17T07:48:17.78Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CreateOrderItemDto.cs",
+              "DocumentMoniker": "D:\\MycafePOS\\MycafePOS\\DTOs\\Order\\CreateOrderItemDto.cs",
+              "RelativeDocumentMoniker": "MycafePOS\\DTOs\\Order\\CreateOrderItemDto.cs",
+              "ToolTip": "D:\\MycafePOS\\MycafePOS\\DTOs\\Order\\CreateOrderItemDto.cs",
+              "RelativeToolTip": "MycafePOS\\DTOs\\Order\\CreateOrderItemDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-11T17:14:51.473Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CreateOrderDto.cs",
+              "DocumentMoniker": "D:\\MycafePOS\\MycafePOS\\DTOs\\Order\\CreateOrderDto.cs",
+              "RelativeDocumentMoniker": "MycafePOS\\DTOs\\Order\\CreateOrderDto.cs",
+              "ToolTip": "D:\\MycafePOS\\MycafePOS\\DTOs\\Order\\CreateOrderDto.cs",
+              "RelativeToolTip": "MycafePOS\\DTOs\\Order\\CreateOrderDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-11T17:14:35.052Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "MenuTypeController.cs",
+              "DocumentMoniker": "D:\\MycafePOS\\MycafePOS\\Controllers\\MenuTypeController.cs",
+              "RelativeDocumentMoniker": "MycafePOS\\Controllers\\MenuTypeController.cs",
+              "ToolTip": "D:\\MycafePOS\\MycafePOS\\Controllers\\MenuTypeController.cs",
+              "RelativeToolTip": "MycafePOS\\Controllers\\MenuTypeController.cs",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAUwGkAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-10T09:01:25.367Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CreateMenuDto.cs",
+              "DocumentMoniker": "D:\\MycafePOS\\MycafePOS\\DTOs\\Menu\\CreateMenuDto.cs",
+              "RelativeDocumentMoniker": "MycafePOS\\DTOs\\Menu\\CreateMenuDto.cs",
+              "ToolTip": "D:\\MycafePOS\\MycafePOS\\DTOs\\Menu\\CreateMenuDto.cs",
+              "RelativeToolTip": "MycafePOS\\DTOs\\Menu\\CreateMenuDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-10T08:49:47.142Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "MenuRecipeItemDto.cs",
+              "DocumentMoniker": "D:\\MycafePOS\\MycafePOS\\DTOs\\Menu\\MenuRecipeItemDto.cs",
+              "RelativeDocumentMoniker": "MycafePOS\\DTOs\\Menu\\MenuRecipeItemDto.cs",
+              "ToolTip": "D:\\MycafePOS\\MycafePOS\\DTOs\\Menu\\MenuRecipeItemDto.cs",
+              "RelativeToolTip": "MycafePOS\\DTOs\\Menu\\MenuRecipeItemDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-10T08:49:35.395Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "UpdateIngredientsDto.cs",
+              "DocumentMoniker": "D:\\MycafePOS\\MycafePOS\\DTOs\\Ingredients\\UpdateIngredientsDto.cs",
+              "RelativeDocumentMoniker": "MycafePOS\\DTOs\\Ingredients\\UpdateIngredientsDto.cs",
+              "ToolTip": "D:\\MycafePOS\\MycafePOS\\DTOs\\Ingredients\\UpdateIngredientsDto.cs",
+              "RelativeToolTip": "MycafePOS\\DTOs\\Ingredients\\UpdateIngredientsDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-10T08:43:30.019Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CreateIngredientsTypeDto.cs",
+              "DocumentMoniker": "D:\\MycafePOS\\MycafePOS\\DTOs\\Ingredients\\CreateIngredientsTypeDto.cs",
+              "RelativeDocumentMoniker": "MycafePOS\\DTOs\\Ingredients\\CreateIngredientsTypeDto.cs",
+              "ToolTip": "D:\\MycafePOS\\MycafePOS\\DTOs\\Ingredients\\CreateIngredientsTypeDto.cs",
+              "RelativeToolTip": "MycafePOS\\DTOs\\Ingredients\\CreateIngredientsTypeDto.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-10T08:15:20.83Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "IngredientStockController.cs",
+              "DocumentMoniker": "D:\\MycafePOS\\MycafePOS\\Controllers\\IngredientStockController.cs",
+              "RelativeDocumentMoniker": "MycafePOS\\Controllers\\IngredientStockController.cs",
+              "ToolTip": "D:\\MycafePOS\\MycafePOS\\Controllers\\IngredientStockController.cs",
+              "RelativeToolTip": "MycafePOS\\Controllers\\IngredientStockController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAA5wCsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-10T08:17:10.259Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "UpdateStockDto.cs",
+              "DocumentMoniker": "D:\\MycafePOS\\MycafePOS\\DTOs\\Ingredients\\UpdateStockDto.cs",
+              "RelativeDocumentMoniker": "MycafePOS\\DTOs\\Ingredients\\UpdateStockDto.cs",
+              "ToolTip": "D:\\MycafePOS\\MycafePOS\\DTOs\\Ingredients\\UpdateStockDto.cs",
+              "RelativeToolTip": "MycafePOS\\DTOs\\Ingredients\\UpdateStockDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-10T08:16:09.429Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "CreateIngredientsDto.cs",
+              "DocumentMoniker": "D:\\MycafePOS\\MycafePOS\\DTOs\\Ingredients\\CreateIngredientsDto.cs",
+              "RelativeDocumentMoniker": "MycafePOS\\DTOs\\Ingredients\\CreateIngredientsDto.cs",
+              "ToolTip": "D:\\MycafePOS\\MycafePOS\\DTOs\\Ingredients\\CreateIngredientsDto.cs",
+              "RelativeToolTip": "MycafePOS\\DTOs\\Ingredients\\CreateIngredientsDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-10T08:15:37.065Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\MycafePOS\\MycafePOS\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "MycafePOS\\Controllers\\AuthController.cs",
+              "ToolTip": "D:\\MycafePOS\\MycafePOS\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "MycafePOS\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAGQAAAAAAAAAAAAswIYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-10T07:56:32.803Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "UsersDto.cs",
+              "DocumentMoniker": "D:\\MycafePOS\\MycafePOS\\DTOs\\UsersDto.cs",
+              "RelativeDocumentMoniker": "MycafePOS\\DTOs\\UsersDto.cs",
+              "ToolTip": "D:\\MycafePOS\\MycafePOS\\DTOs\\UsersDto.cs",
+              "RelativeToolTip": "MycafePOS\\DTOs\\UsersDto.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAA7wA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-10T07:55:11.197Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "20260510074714_InitialCreate.cs",
+              "DocumentMoniker": "D:\\MycafePOS\\MycafePOS\\Migrations\\20260510074714_InitialCreate.cs",
+              "RelativeDocumentMoniker": "MycafePOS\\Migrations\\20260510074714_InitialCreate.cs",
+              "ToolTip": "D:\\MycafePOS\\MycafePOS\\Migrations\\20260510074714_InitialCreate.cs",
+              "RelativeToolTip": "MycafePOS\\Migrations\\20260510074714_InitialCreate.cs",
+              "ViewState": "AgIAAOcAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-10T07:47:14.765Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\MycafePOS\\MycafePOS\\Program.cs",
+              "RelativeDocumentMoniker": "MycafePOS\\Program.cs",
+              "ToolTip": "D:\\MycafePOS\\MycafePOS\\Program.cs",
+              "RelativeToolTip": "MycafePOS\\Program.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-10T07:43:54.999Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\MycafePOS\\MycafePOS\\appsettings.json",
+              "RelativeDocumentMoniker": "MycafePOS\\appsettings.json",
+              "ToolTip": "D:\\MycafePOS\\MycafePOS\\appsettings.json",
+              "RelativeToolTip": "MycafePOS\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-10T07:43:05.378Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\MycafePOS\\MycafePOS\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "MycafePOS\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\MycafePOS\\MycafePOS\\Properties\\launchSettings.json",
+              "RelativeToolTip": "MycafePOS\\Properties\\launchSettings.json",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACMAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-10T07:42:58.52Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\MycafePOS\\MycafePOS\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "MycafePOS\\Data\\AppDbContext.cs",
+              "ToolTip": "D:\\MycafePOS\\MycafePOS\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "MycafePOS\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAIwCUAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-10T07:42:07.506Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "OrderItems.cs",
+              "DocumentMoniker": "D:\\MycafePOS\\MycafePOS\\Entities\\OrderItems.cs",
+              "RelativeDocumentMoniker": "MycafePOS\\Entities\\OrderItems.cs",
+              "ToolTip": "D:\\MycafePOS\\MycafePOS\\Entities\\OrderItems.cs",
+              "RelativeToolTip": "MycafePOS\\Entities\\OrderItems.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-10T07:41:34.254Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Orders.cs",
+              "DocumentMoniker": "D:\\MycafePOS\\MycafePOS\\Entities\\Orders.cs",
+              "RelativeDocumentMoniker": "MycafePOS\\Entities\\Orders.cs",
+              "ToolTip": "D:\\MycafePOS\\MycafePOS\\Entities\\Orders.cs",
+              "RelativeToolTip": "MycafePOS\\Entities\\Orders.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-10T07:41:21.301Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "MenuRecipe.cs",
+              "DocumentMoniker": "D:\\MycafePOS\\MycafePOS\\Entities\\MenuRecipe.cs",
+              "RelativeDocumentMoniker": "MycafePOS\\Entities\\MenuRecipe.cs",
+              "ToolTip": "D:\\MycafePOS\\MycafePOS\\Entities\\MenuRecipe.cs",
+              "RelativeToolTip": "MycafePOS\\Entities\\MenuRecipe.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-10T07:40:50.917Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "IngredientStock.cs",
+              "DocumentMoniker": "D:\\MycafePOS\\MycafePOS\\Entities\\IngredientStock.cs",
+              "RelativeDocumentMoniker": "MycafePOS\\Entities\\IngredientStock.cs",
+              "ToolTip": "D:\\MycafePOS\\MycafePOS\\Entities\\IngredientStock.cs",
+              "RelativeToolTip": "MycafePOS\\Entities\\IngredientStock.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-10T07:40:29.34Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
