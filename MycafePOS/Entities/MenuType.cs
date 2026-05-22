@@ -11,4 +11,6 @@ public class MenuType
     public string MenuTypeName { get; set; } = string.Empty;
 
     public ICollection<Menu>? Menus { get; set; }
+
+    public bool IsDeleted { get; set; } = false;
 }

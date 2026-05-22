@@ -23,6 +23,7 @@ public class IngredientsTypeController : ControllerBase
     public async Task<IActionResult> GetAll()
     {
         var types = await _context.IngredientsType
+            .Where(w => w.IsDeleted != true)
             .Select(t => new
             {
                 id = t.Id,
@@ -90,7 +91,7 @@ public class IngredientsTypeController : ControllerBase
             return NotFound();
         }
 
-        _context.IngredientsType.Remove(type);
+        type.IsDeleted = true;
 
         await _context.SaveChangesAsync();
 

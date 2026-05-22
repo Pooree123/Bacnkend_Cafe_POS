@@ -110,6 +110,17 @@
         "tags": [
           "Dashboard"
         ],
+        "parameters": [
+          {
+            "name": "minstock",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "default": 50
+            }
+          }
+        ],
         "responses": {
           "200": {
             "description": "OK"
@@ -859,6 +870,10 @@
       "CreateOrderDto": {
         "type": "object",
         "properties": {
+          "price": {
+            "type": "number",
+            "format": "double"
+          },
           "items": {
             "type": "array",
             "items": {

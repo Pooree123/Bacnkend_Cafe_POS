@@ -23,4 +23,6 @@ public class Ingredients
     public IngredientStock? IngredientStock { get; set; }
 
     public ICollection<MenuRecipe>? MenuRecipes { get; set; }
+
+    public bool IsDeleted { get; set; } = false;
 }

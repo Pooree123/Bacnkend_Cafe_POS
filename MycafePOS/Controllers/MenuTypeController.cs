@@ -23,6 +23,7 @@ public class MenuTypeController : ControllerBase
     public async Task<IActionResult> GetAll()
     {
         var types = await _context.MenuType
+            .Where(w => w.IsDeleted != true)
             .Select(t => new
             {
                 id = t.Id,
@@ -109,7 +110,7 @@ public class MenuTypeController : ControllerBase
             });
         }
 
-        _context.MenuType.Remove(type);
+        type.IsDeleted = true;
 
         await _context.SaveChangesAsync();
 

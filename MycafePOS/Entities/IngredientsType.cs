@@ -11,4 +11,6 @@ public class IngredientsType
     public string IngredientsTypeName { get; set; } = string.Empty;
 
     public ICollection<Ingredients>? Ingredients { get; set; }
+
+    public bool IsDeleted { get; set; } = false;
 }

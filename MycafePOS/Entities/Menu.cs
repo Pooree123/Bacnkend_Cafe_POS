@@ -11,6 +11,8 @@ public class Menu
     [MaxLength(100)]
     public string MenuName { get; set; } = string.Empty;
 
+    public string Menudescription { get; set; } = string.Empty;
+
     public string? MenuImg { get; set; }
 
     [Column(TypeName = "decimal(10,2)")]

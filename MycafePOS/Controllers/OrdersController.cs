@@ -127,8 +127,6 @@ public class OrdersController : ControllerBase
 
             var itemTotal = menu.MenuPrice * item.Qty;
 
-            totalPrice += itemTotal;
-
             var orderItem = new OrderItems
             {
                 OrderId = order.Id,
@@ -160,7 +158,7 @@ public class OrdersController : ControllerBase
             }
         }
 
-        order.TotalPrice = totalPrice;
+        order.TotalPrice = dto.Price;
 
         await _context.SaveChangesAsync();
 
@@ -168,7 +166,7 @@ public class OrdersController : ControllerBase
         {
             message = "Order success",
             orderId = order.Id,
-            total = totalPrice
+            total = order.TotalPrice
         });
     }
 }

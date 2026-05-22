@@ -10,3 +10,5 @@ wwwroot\uploads\menu\a12d29a5-7969-4ee6-8843-a9b57fc2b9c2.png
 wwwroot\uploads\menu\84123534-d0aa-4991-ae88-33ba6b13fdcd.jpg
 wwwroot\uploads\menu\e40e49af-e79c-42a8-ae44-2e998714a4ed.jpg
 wwwroot\uploads\menu\2de268e5-ab7c-40be-bd01-f4d5f381cdf3.jpg
+wwwroot\uploads\menu\1022f31e-30f1-4dfb-9f2a-e6695fd3f96e.avif
+wwwroot\uploads\menu\e942f20a-6b06-4ed8-a7cf-dc8952a50bd4.jpg

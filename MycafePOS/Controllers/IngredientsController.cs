@@ -21,13 +21,15 @@ public class IngredientsController : ControllerBase
 
     [HttpGet]
     public async Task<IActionResult> GetAll(
-     string? search,
-     int page = 1,
-     int pageSize = 10)
+     [FromQuery] string? search,
+     [FromQuery] int page = 1,
+     [FromQuery] int pageSize = 10)
     {
+        // ✨ แก้ไขจุดที่ 1: กรองเอาตัวที่ยังไม่โดนลบตั้งแต่ต้นทาง query เลย
         var query = _context.Ingredients
             .Include(i => i.IngredientsType)
             .Include(i => i.IngredientStock)
+            .Where(i => !i.IsDeleted)
             .AsQueryable();
 
         // SEARCH
@@ -38,6 +40,7 @@ public class IngredientsController : ControllerBase
                     .Contains(search.ToLower()));
         }
 
+        // ตอนนี้ค่า Count จะถูกต้องตามความเป็นจริงแล้ว ไม่รวมตัวที่โดน Soft Delete
         var totalItems = await query.CountAsync();
 
         var ingredients = await query
@@ -50,27 +53,17 @@ public class IngredientsController : ControllerBase
         {
             page,
             pageSize,
-
             totalItems,
-
-            totalPages =
-                (int)Math.Ceiling(
-                    totalItems / (double)pageSize),
-
+            totalPages = (int)Math.Ceiling(totalItems / (double)pageSize),
             data = ingredients.Select(i => new
             {
                 id = i.Id,
-
                 name = i.IngredientsName,
-
                 unit = i.IngredientsUnitType,
-
                 costPerUnit = i.CostPerUnit,
-
                 type = i.IngredientsType != null
                     ? i.IngredientsType.IngredientsTypeName
                     : null,
-
                 stock = i.IngredientStock != null
                     ? i.IngredientStock.Qty
                     : 0
@@ -79,8 +72,7 @@ public class IngredientsController : ControllerBase
     }
 
     [HttpPost]
-    public async Task<IActionResult> Create(
-    [FromBody] CreateIngredientsDto dto)
+    public async Task<IActionResult> Create([FromBody] CreateIngredientsDto dto)
     {
         var ingredient = new Ingredients
         {
@@ -91,7 +83,6 @@ public class IngredientsController : ControllerBase
         };
 
         _context.Ingredients.Add(ingredient);
-
         await _context.SaveChangesAsync();
 
         // create stock default
@@ -103,42 +94,30 @@ public class IngredientsController : ControllerBase
         };
 
         _context.IngredientStock.Add(stock);
-
         await _context.SaveChangesAsync();
 
         // load relation
-        await _context.Entry(ingredient)
-            .Reference(i => i.IngredientsType)
-            .LoadAsync();
+        await _context.Entry(ingredient).Reference(i => i.IngredientsType).LoadAsync();
+        await _context.Entry(ingredient).Reference(i => i.IngredientStock).LoadAsync();
 
-        await _context.Entry(ingredient)
-            .Reference(i => i.IngredientStock)
-            .LoadAsync();
-
+        // ✨ แก้ไขจุดที่ 2: แนบ message และห่อ Object ข้อมูลกลับไปให้หน้าบ้านอ่านง่ายๆ
         return Ok(new
         {
-            id = ingredient.Id,
-
-            name = ingredient.IngredientsName,
-
-            unit = ingredient.IngredientsUnitType,
-
-            costPerUnit = ingredient.CostPerUnit,
-
-            type = ingredient.IngredientsType != null
-                ? ingredient.IngredientsType.IngredientsTypeName
-                : null,
-
-            stock = ingredient.IngredientStock != null
-                ? ingredient.IngredientStock.Qty
-                : 0
+            message = "Create Success",
+            data = new
+            {
+                id = ingredient.Id,
+                name = ingredient.IngredientsName,
+                unit = ingredient.IngredientsUnitType,
+                costPerUnit = ingredient.CostPerUnit,
+                type = ingredient.IngredientsType?.IngredientsTypeName,
+                stock = ingredient.IngredientStock?.Qty ?? 0
+            }
         });
     }
 
     [HttpPut("{id}")]
-    public async Task<IActionResult> Update(
-    int id,
-    UpdateIngredientsDto dto)
+    public async Task<IActionResult> Update(int id, [FromBody] UpdateIngredientsDto dto)
     {
         var ingredient = await _context.Ingredients
             .Include(i => i.IngredientsType)
@@ -147,7 +126,7 @@ public class IngredientsController : ControllerBase
 
         if (ingredient == null)
         {
-            return NotFound();
+            return NotFound(new { message = "Ingredient not found" });
         }
 
         ingredient.IngredientsName = dto.IngredientsName;
@@ -157,19 +136,19 @@ public class IngredientsController : ControllerBase
 
         await _context.SaveChangesAsync();
 
+        // ✨ แก้ไขจุดที่ 3: แนบ message กลับไปเหมือนกับตอนสัญญากับหน้าบ้านไว้
         return Ok(new
         {
-            id = ingredient.Id,
-
-            name = ingredient.IngredientsName,
-
-            unit = ingredient.IngredientsUnitType,
-
-            costPerUnit = ingredient.CostPerUnit,
-
-            type = ingredient.IngredientsType?.IngredientsTypeName,
-
-            stock = ingredient.IngredientStock?.Qty ?? 0
+            message = "Update Success",
+            data = new
+            {
+                id = ingredient.Id,
+                name = ingredient.IngredientsName,
+                unit = ingredient.IngredientsUnitType,
+                costPerUnit = ingredient.CostPerUnit,
+                type = ingredient.IngredientsType?.IngredientsTypeName,
+                stock = ingredient.IngredientStock?.Qty ?? 0
+            }
         });
     }
 
@@ -181,16 +160,15 @@ public class IngredientsController : ControllerBase
 
         if (ingredient == null)
         {
-            return NotFound();
+            return NotFound(new { message = "Ingredient not found" });
         }
 
-        _context.Ingredients.Remove(ingredient);
-
+        ingredient.IsDeleted = true;
         await _context.SaveChangesAsync();
 
         return Ok(new
         {
-            message = "Deleted"
+            message = "Soft Deleted Success"
         });
     }
 }
